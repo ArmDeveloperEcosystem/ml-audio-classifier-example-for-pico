@@ -1,3 +1,6 @@
 [submodule "inference-app/lib/microphone-library-for-pico"]
 	path = inference-app/lib/microphone-library-for-pico
 	url = https://github.com/ArmDeveloperEcosystem/microphone-library-for-pico.git
+[submodule "inference-app/lib/pico-tflmicro"]
+	path = inference-app/lib/pico-tflmicro
+	url = https://github.com/raspberrypi/pico-tflmicro.git
