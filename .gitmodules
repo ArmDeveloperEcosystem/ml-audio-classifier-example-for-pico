@@ -4,3 +4,7 @@
 [submodule "inference-app/lib/pico-tflmicro"]
 	path = inference-app/lib/pico-tflmicro
 	url = https://github.com/raspberrypi/pico-tflmicro.git
+[submodule "inference-app/lib/CMSIS_5"]
+	path = inference-app/lib/CMSIS_5
+	url = https://github.com/ARM-software/CMSIS_5.git
+	shallow = true
