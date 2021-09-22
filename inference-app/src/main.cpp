@@ -132,11 +132,15 @@ int main( void )
             );
         }
 
-        float y = ml_model.predict();
+        float prediction = ml_model.predict();
 
-        printf("y = %f\n", y);
+        if (prediction >= 0.5) {
+          printf("\t🔥 🔔\tdetected!\t(prediction = %f)\n\n", prediction);
+        } else {
+          printf("\t🔕\tNOT detected\t(prediction = %f)\n\n", prediction);
+        }
 
-        pwm_set_chan_level(pwm_slice_num, pwm_chan_num, y * 255);
+        pwm_set_chan_level(pwm_slice_num, pwm_chan_num, prediction * 255);
     }
 
     return 0;

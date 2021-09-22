@@ -76,7 +76,7 @@ def run_serial_monitor():
                 break;
               }
 
-              term.write(decoder.decode(value));
+              term.write(decoder.decode(value, { stream: true }));
             }
           } catch (error) {
             keepReading = false;
