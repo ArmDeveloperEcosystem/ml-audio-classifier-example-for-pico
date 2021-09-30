@@ -2,7 +2,7 @@
 
 ## WinUSB driver
 
-In order to flash the board using WebUSB on Windows the WinUSB driver mush be installed.
+In order to flash the board using WebUSB on Windows the WinUSB driver must be installed.
 
 1. Download [Zadig](https://github.com/pbatard/libwdi/releases/download/b755/zadig-2.6.exe)
 1. Put board into USB boot ROM mode, by holding down Boot or BOOTSEL button while plugging in USB cable.
